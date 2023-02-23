@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f1f3f5;
+    
+}
+
+.top-nav{
+    background-color: black; 
+    height: 50px;
+}
+
+.top li{
+    background-color: black;
+    display: inline-block;
+    color: white;
+   font-size: 10px;
+   position: relative;
+   cursor: pointer;
+   margin-top: 20px;
+   margin-right: 20px;
+   
+}
+
+ul{
+    list-style-type: none;  
+}
+
+.header, .top{
+    text-align: end;
+}
+
+.header-div .header{
+    position: "relative";
+    top:0;
+    display: block;
+}
+
+
+.header li{
+    display: inline-block;
+    padding: 40px 20px;
+    cursor: pointer;
+}
+
+.cross{
+    font-size: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+
+
+
+@media only screen and (max-width: 900px) {
+    .header .list{
+        display: block;
+        padding-left: 100px; 
+        padding: 20px 20px;
+    }
+
+    .header{
+        position: fixed;
+        background-color: #212529;
+        z-index: 1;
+        width: 300px;
+        height: 100%;
+        display: none;     
+    }
+
+    .top-nav .top .travel{
+        opacity:0;
+    }
+
+    
+   .move{
+      background-color: #f1f3f5;
+      position: relative;
+      top: 50px;
+     }
+
+   .top-nav .top .click{
+    position: absolute;
+    right: 20px;
+    z-index: 1;
+    top: -10px;
+    background-color: red;
+    padding: 10px;
+    display: block;
+    }
+      
+}
+
+
+@media only screen and (min-width: 900px) {
+
+    .top-nav .top .click{
+        position: absolute;
+        right: 20px;
+        z-index: 1;
+        top: -10px;
+        background-color: red;
+        padding: 10px;
+        display: none;
+    }
+
+
+    .header-div .header .cross{
+        display: none;
+    }
+
+
+} 
+
+
+.header li:hover {
+    color: red;
+}
+
+.card{
+    position: relative;
+    display: inline-block;
+    padding: 150px 40px 150px 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px; 
+    left: 40px;
+    width: 350px;
+    height: 400px;
+    background-color: white;
+
+}
+
+.card h6, .card2 h6{
+    color: red;
+    letter-spacing: 1px;
+}
+
+.card2{
+    height: 450px;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 20px;  
+    overflow: hidden;
+    left: 40px;
+   
+    display: inline-block;
+    background-color: white;
+}
+
+.card2 h5:hover{
+    color: red;
+}
+
+
+.checkout-head{
+    height:200px;
+    width: 100%;
+    background-color: #f1f3f5 ;
+ }
+
+.checkout-head #h1{
+    color: red;
+    padding: 0;
+}
+
+.checkout-head h1{
+   margin-left: 60px;
+   margin-right: 95px;
+   font-size: 50px;
+   position: relative;
+   top: 40px;
+}
+
+.footer-area{
+    background-color: #212529;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    position: relative;
+    margin-top: 20px;
+}
+
+
+.footer-items{ 
+   position: relative;
+   top: 80px;
+   line-height: 2;
+   color: white;
+   font-size: 12px;
+   width: 200px;
+}
+
+
+.footer-items p:hover{
+    color: red;
+    cursor: pointer;
+}
+
+
+footer p{
+    color: white;
+    position: relative;
+    bottom: 100px;
+    text-align: center;
+    font-size: 12px;
+}
+
+
+
+   
+
+
