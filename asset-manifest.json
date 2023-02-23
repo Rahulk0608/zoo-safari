@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/zoo-safari/static/css/main.ea8890ff.css",
+    "main.js": "/zoo-safari/static/js/main.c1ba480f.js",
+    "index.html": "/zoo-safari/index.html",
+    "main.ea8890ff.css.map": "/zoo-safari/static/css/main.ea8890ff.css.map",
+    "main.c1ba480f.js.map": "/zoo-safari/static/js/main.c1ba480f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea8890ff.css",
+    "static/js/main.c1ba480f.js"
+  ]
+}
