@@ -5,7 +5,7 @@ import Card from "./Card";
 import Footer from "./Footer";
 import Card2 from "./Card2";
 import "../styles.css";
-
+import Middle from "./Middle";
 
 const image2 = "https://www.centralfloridazoo.org/wp-content/uploads/2017/04/ANIMALS-shutterstock_382892662_1400x840_acf_cropped.jpg";
 const image3 = "https://cdn.britannica.com/02/152302-050-1A984FCB/African-savanna-elephant.jpg";
@@ -35,6 +35,11 @@ function App(){
       <Card
         info = "TRAVELLER ESSENTIALS"
         description = "Travel Requirements for Tourists to India."
+      />
+
+      <Middle
+       para1 = "This beloved establishment first opened its gates to the public in 1973, and has since become one of the best rainforest zoos in the world."
+       para2 =  "These include plaudits from Forbes Traveler as one of the best zoos in the world, the Asian Attraction Awards for Most Popular Attraction in the Wildlife Park category and the STB 22nd Tourism Award for Best Leisure Attraction Experience of the Year. It was ranked as one of the top 3 zoos in the world by the TripAdvisor Travellers’ Choice Award in 2018."
       />
             
       <div className="checkout-head">
@@ -66,8 +71,6 @@ function App(){
               para = "Located on the north-western side of the island."
             />
          
-         
-      
 
      <div className="footer-area">
        <Footer

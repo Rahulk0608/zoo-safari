@@ -7,7 +7,6 @@
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #f1f3f5;
-    
 }
 
 .top-nav{
@@ -133,13 +132,19 @@ ul{
     left: 40px;
     width: 350px;
     height: 400px;
-    background-color: white;
-
+    background-image: url("https://i.pinimg.com/736x/93/4a/ab/934aab9ada1dd685de31c4d1bb6e612f.jpg");
 }
+
+
 
 .card h6, .card2 h6{
     color: red;
     letter-spacing: 1px;
+}
+
+.card p{
+    font-size: 20px;
+    color: white;
 }
 
 .card2{
@@ -159,10 +164,52 @@ ul{
 }
 
 
+.middle{
+    width: 100%;
+    height: auto;
+    background-color: #f1f3f5;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.mid-left{
+    width: 700px;
+    height: 100%;
+    background-color: white;
+    margin-left: 40px;
+}
+
+.mid-left p, .mid-left h2{
+    padding-top: 20px;
+    padding-bottom:20px;
+}
+
+.mid-right h2, .mid-right p{
+    padding-top: 20px;
+    padding-bottom:20px;
+    padding-left: 20px;
+}
+
+.mid-right{
+    width: 350px;
+    height: 50%;
+    background-color:#212529;
+    margin-right: 40px;
+    color: white;
+    font-size: 10px;
+}
+
+.ticket-website:hover{
+    color: red;
+    cursor: pointer;
+}
+
+
 .checkout-head{
     height:200px;
     width: 100%;
-    background-color: #f1f3f5 ;
+    background-color: #f1f3f5;
  }
 
 .checkout-head #h1{
