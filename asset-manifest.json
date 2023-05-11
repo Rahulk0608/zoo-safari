@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/zoo-safari/static/css/main.e68d66bf.css",
-    "main.js": "/zoo-safari/static/js/main.d2c86c70.js",
+    "main.css": "/zoo-safari/static/css/main.29afc1d4.css",
+    "main.js": "/zoo-safari/static/js/main.8e5839f6.js",
     "index.html": "/zoo-safari/index.html",
-    "main.e68d66bf.css.map": "/zoo-safari/static/css/main.e68d66bf.css.map",
-    "main.d2c86c70.js.map": "/zoo-safari/static/js/main.d2c86c70.js.map"
+    "main.29afc1d4.css.map": "/zoo-safari/static/css/main.29afc1d4.css.map",
+    "main.8e5839f6.js.map": "/zoo-safari/static/js/main.8e5839f6.js.map"
   },
   "entrypoints": [
-    "static/css/main.e68d66bf.css",
-    "static/js/main.d2c86c70.js"
+    "static/css/main.29afc1d4.css",
+    "static/js/main.8e5839f6.js"
   ]
 }
