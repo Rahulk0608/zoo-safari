@@ -7,6 +7,8 @@ import Card2 from "./Card2";
 import "../styles.css";
 import Middle from "./Middle";
 
+
+
 const image2 = "https://www.centralfloridazoo.org/wp-content/uploads/2017/04/ANIMALS-shutterstock_382892662_1400x840_acf_cropped.jpg";
 const image3 = "https://cdn.britannica.com/02/152302-050-1A984FCB/African-savanna-elephant.jpg";
 const image4 = "https://cdn.britannica.com/29/150929-050-547070A1/lion-Kenya-Masai-Mara-National-Reserve.jpg";
@@ -17,6 +19,7 @@ function App(){
     <div>
       <Top/>
       <Header/>
+
       <img 
         src  ={image2} 
         alt = {"a_picture"} 
